@@ -1,0 +1,33 @@
+# Keil uVision 对象目录和输出文件
+*/**/Objects/
+*/**/Listings/
+
+# Keil 临时文件和构建日志
+*.build_log.htm
+*.iex
+*.dep
+*.crf
+*.d
+*.o
+*.lst
+*.axf
+*.lnp
+*.tmp
+
+# 编译输出文件 (根据需要选择性地忽略，通常不提交)
+*.hex
+*.bin
+*.map
+
+# Keil 用户配置文件 (可能包含本地路径，不应共享)
+*.uvguix.*
+*.uvoptx
+# 注意： *.uvprojx 是工程文件，非常重要，必须提交！
+
+# 其他可能存在的IDE或编辑器文件
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
