@@ -28,7 +28,7 @@ uint8_t Key_GetNum(void)
 
 uint8_t Key_GetState(void)
 {
-	if (GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_0) == 0)
+	if (GPIO_ReadInputDataBit(GPIOA, GPIO_Pin_0) == 0)
 	{
 		return 1;
 	}

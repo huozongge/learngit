@@ -752,12 +752,12 @@
             <File>
               <FileName>Serial.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\01-基础驱动代码\Hardware\Serial.c</FilePath>
+              <FilePath>.\Hardware\Serial.c</FilePath>
             </File>
             <File>
               <FileName>Serial.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\01-基础驱动代码\Hardware\Serial.h</FilePath>
+              <FilePath>.\Hardware\Serial.h</FilePath>
             </File>
           </Files>
         </Group>
